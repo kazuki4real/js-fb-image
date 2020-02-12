@@ -9,7 +9,18 @@
 </head>
 <body>
 
-  <p>patter 1</p>
+  <div class="js-fb-grid">
+      <img src="img/usa-best-places-washington.jpg" alt="">
+      <img src="img/usa-best-places-new-york.jpg" alt="">
+      <img src="img/mount_rushmore.jpg" alt="">
+  </div>
+
+  <div class="js-fb-grid">
+    <img src="img/usa-best-places-washington.jpg" alt="">
+    <img src="img/mount_rushmore.jpg" alt="">
+  </div>
+
+  <!-- <p>pattern 1</p>
   <div id="container" class="pattern1">
     <div class="item">
       <img src="img/usa-best-places-new-york.jpg">
@@ -19,8 +30,8 @@
     </div>
   </div>
 
-  <p>patter 1_a</p>
-  <div id="container" class="pattern1_a">
+  <p>pattern 1_a</p>
+  <div class="pattern1_a">
     <div class="item">
       <img src="img/usa-best-places-new-york.jpg">
     </div>
@@ -29,21 +40,8 @@
     </div>
   </div>
 
-  <p>patter 2</p>
-  <div id="container" class="pattern2">
-    <div class="item">
-      <img src="img/usa-best-places-new-york.jpg">
-    </div>
-    <div class="item">
-      <img src="img/mount_rushmore.jpg">
-    </div>
-    <div class="item">
-      <img src="img/usa-best-places-san-francisco.jpg">
-    </div>
-  </div>
-
-  <p>patter 2_a</p>
-  <div id="container" class="pattern2_a">
+  <p>pattern 2</p>
+  <div class="pattern2">
     <div class="item">
       <img src="img/usa-best-places-new-york.jpg">
     </div>
@@ -55,8 +53,21 @@
     </div>
   </div>
 
-  <p>patter 3</p>
-  <div id="container" class="pattern3">
+  <p>pattern 2_a</p>
+  <div class="pattern2_a">
+    <div class="item">
+      <img src="img/usa-best-places-new-york.jpg">
+    </div>
+    <div class="item">
+      <img src="img/mount_rushmore.jpg">
+    </div>
+    <div class="item">
+      <img src="img/usa-best-places-san-francisco.jpg">
+    </div>
+  </div>
+
+  <p>pattern 3</p>
+  <div class="pattern3">
     <div class="item">
       <img src="img/usa-best-places-new-york.jpg">
     </div>
@@ -70,7 +81,7 @@
       <img src="img/usa-best-places-washington.jpg">
     </div>
   </div>
-  <p>patter 4</p>
+  <p>pattern 4</p>
   <div id="container" class="pattern4">
     <div class="item">
       <img src="img/usa-best-places-new-york.jpg">
@@ -87,8 +98,11 @@
     <div class="item">
       <img src="img/united-states-usa-america-monument-valley-arizona-utah-famous-place-monument-valley-landscape-arizona-utah-scene-navajo-121420678.jpg">
     </div>
-  </div>
-  <script src="main.js">
+  </div> -->
+  <script src="main.js"></script>
+  <script>
+    const hoge = new FBGrid('.js-fb-grid');
+    console.log(hoge);
   </script>
 </body>
 </html>
